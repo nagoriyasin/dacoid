@@ -1,0 +1,92 @@
+.stacked-bar {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.stacked-bar .bar {
+    flex-grow: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+  .border-l {
+      /* Adjust the height and color of dashed lines */
+      height: 10%;
+      width: 100%;
+      border-color: #cbd5e0;
+  }
+
+
+
+
+
+  .background-grid {
+      height: 200px;
+      margin: 20px auto;
+      border: 1px dashed #CCC;
+      border-bottom: none;
+      background-color: #E8E8E8;
+      background-image: repeating-linear-gradient(to top,
+              #CCC,
+              #CCC 1px,
+              white 1px,
+              white 10%,
+              #CCC 10%)
+  }
+
+
+  .background-grid {
+      position: relative;
+  }
+
+  .grid-line {
+      position: absolute;
+      width: 100%;
+      border-bottom: 1px dashed #CCC;
+      text-align: right;
+      /* set border-bottom to the percentage for the line */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .columns {
+      display: flex;
+      height: 50vh;
+      max-height: 100%;
+      align-items: stretch;
+      max-width: 100%;
+      border: 1px solid #CCC;
+      gap: 10px;
+      padding: 0vw 2vw;
+  }
+
+  .column-container {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-end;
+      width: 2%;
+  }
+
+  .column-bar {
+      border-right: 1px solid white;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+  }
+
+  .series-a {
+      background: #8099ff;
+  }
+
+  .series-b {
+      background: #fd9292;
+  }
